@@ -22,7 +22,8 @@ class App extends StatelessWidget {
             horizontal: 20,
           ),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment:
+                CrossAxisAlignment.start, // Column & crossAxis means horizontal
 
             /// it'll be a series of children, so it's a list<widget> []
             children: [
